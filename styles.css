@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    position: fixed;
+    height: 75px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.head {
+    font-size: 20px;
+    padding-top: 20%;
+}
+
+.mainbody {
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.start {
+    border-radius: 75px;
+    height: 25px;
+    width: 50px;
+    text-decoration: none;
+    background: #0071e3;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
